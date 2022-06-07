@@ -13,7 +13,8 @@ app.use(cors());
 
 app.use("/posts", postRoutes);
 
-const CONNECTION_URL = "mongodb://localhost:27017/test";
+const CONNECTION_URL =
+  "mongodb+srv://memoryBook:mmbook@cluster0.6ecoz.mongodb.net/?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
 
 mongoose
